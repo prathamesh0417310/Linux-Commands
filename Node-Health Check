@@ -1,0 +1,21 @@
+#!/bin/bash
+
+##########################
+# This is a script to check Node-Health.
+# Author:  Prathamesh W
+# DAte:    04/02/2026
+# Version: v1
+###########################
+
+# set -x #debug mode it show output with command OR you can use echo "" command.
+
+set -x 
+
+#echo "Disk Space"
+df -Th
+
+#echo "Memory"
+free -g
+
+#echo "CPU"
+nproc
