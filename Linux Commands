@@ -11,7 +11,7 @@ cp	                Copy files or directories.	                              cp f
 mv	                Move or rename files.	                                    mv file.txt /path/to/new_location
 cat	                Display file contents.	                                  cat file.txt
 nano / vim	        Edit files in terminal.	                                  nano file.txt
-find	              Search for files in a directory hierarchy.	              find . -name "file.txt"
+find	            Search for files in a directory hierarchy.	              find . -name "file.txt"
 grep	              Search text using patterns.	                              grep "pattern" file.txt
 tar	                Archive and compress files.	                              tar -cvf archive.tar file1.txt file2.txt
 df	                Show disk usage of file systems.	                        df
