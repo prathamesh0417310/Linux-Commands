@@ -7,9 +7,12 @@
 # Version: v1
 ###########################
 
-# set -x #debug mode it show output with command OR you can use echo "" command.
 
-set -x 
+# set command it show output along with command OR you can use echo "" command.
+
+set -x #debug mode
+set -e #exit the script when there is an error
+set -o pipefail
 
 #echo "Disk Space"
 df -Th
